@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import matplotlib.pyplot as plt
 
 
-file_path = '/Users/maneloutajar/Documents/Internship/results_docking/Classeur1.xlsx'
+file_path = '/Users/maneloutajar/Documents/Internship/results_docking/results.xlsx'
 df = pd.read_excel(file_path)
 print("Aperçu du fichier du docking :")
 print(df.head())
